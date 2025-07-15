@@ -53,7 +53,11 @@ $$S_t = S_0\exp{((r-\frac{σ^2}{2})t + σB^*_t)}$$
 
 ### Monte Carlo Classique
 
-Puisqu'on ne peut pas calculer $$e^{-rT}E^{Q^*}[G]$$ analytiquement (sauf cas simples), on l'approxime par 
+Puisqu'on ne peut pas calculer 
+
+$$e^{-rT}E^{Q^*}[G]$$
+
+analytiquement (sauf cas simples), on l'approxime par 
 
 $$\hat{\delta}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})$$
 
@@ -103,11 +107,18 @@ $$
 $$
 \mathbb{V}(G_{moyen}) = \frac{1}{2}[\mathbb{V}(G⁺) + \mathbb{V}(G⁻) + 2Cov(G⁺, G⁻)]
 $$
-Si $Cov(G⁺, G⁻) < 0$, alors $\mathbb{V}(p̂^{G^A}_0) < \mathbb{V}(p̂^G_0)$
+Si
+$$Cov(G⁺, G⁻) < 0$$,
+
+alors 
+
+$$\mathbb{V}(p̂^{G^A}_0) < \mathbb{V}(p̂^G_0)$$
 
 ### Variable de Contrôle
 
-**Principe** : Utiliser $S_T$ comme variable de contrôle car $\mathbb{E}^{Q^*}[S_T] = S_0e^{rT}$ est connu.
+**Principe** : Utiliser $S_T$ comme variable de contrôle car 
+$$\mathbb{E}^{Q^*}[S_T] = S_0e^{rT}$$
+est connu.
 
 utiliser directement $S_T$ comme variable de contrôle, car on connaît
 $$
