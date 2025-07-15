@@ -79,15 +79,15 @@ où $S_T^{(1)},...S_T^{(n)}$ sont n simulations indépendantes sous Q*.
 2. Estimer le prix :
 
 $$
-\hat{\delta}_n = e^{-rT} × \frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})
+\delta_n = e^{-rT} × \frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})
 $$
 
 **Variance et intervalle de confiance** :
 $$
 \begin{align*}
-\mathbb{V}(\hat{\delta}_n) &= e^{-2rT}\frac{\mathbb{V}(G)}{n}\\
-\text{Erreur standard} &= \sqrt{\mathbb{V}(\hat{\delta}_n)}\\
-\text{IC 95\%} &= \hat{\delta}_n ± 1.96 × \text{Erreur standard}
+\mathbb{V}(\delta_n) &= e^{-2rT}\frac{\mathbb{V}(G)}{n}\\
+\text{Erreur standard} &= \sqrt{\mathbb{V}(\delta_n)}\\
+\text{IC 95\%} &= \delta_n ± 1.96 × \text{Erreur standard}
 \end{align*}
 $$
 
@@ -106,7 +106,7 @@ $$
 
 2. Estimer le prix :
 $$
-\hat{\delta}^A_n = e^{-rT} \frac{2}{n}\sum_{i=1}^{n/2} G_{\text{moyen}}^i
+\delta^A_n = e^{-rT} \frac{2}{n}\sum_{i=1}^{n/2} G_{\text{moyen}}^i
 $$
 
 **Réduction de variance**
@@ -156,7 +156,7 @@ $$
 Le prix estimé devient :
 $$
 
-\hat{\delta}^{ctrl}_n = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
+\delta^{ctrl}_n = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
 
 $$
 
