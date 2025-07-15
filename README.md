@@ -128,10 +128,15 @@ $$V(p̂^{G^A}_0) < V(p̂^G_0)$$
 ### Variable de Contrôle
 
 **Principe** : Utiliser $S_T$ comme variable de contrôle car 
-$$E^{Q^*}[S_T] = S_0e^{rT}$$
+
+$$
+E^{Q^*}[S_T] = S_0e^{rT}
+$$
+
 est connu.
 
 utiliser directement $S_T$ comme variable de contrôle, car on connaît
+
 $$
 E[S_T] = S_0 e^{rT} = m.
 $$
@@ -141,13 +146,16 @@ On note pour chaque simulation :
 - $G^{(i)} = (S_T^{(i)} - K)^+$ le payoff
 
 On définit :
-$$\begin{align*}
+
+$$
+\begin{align*}
 \bar{G}_n &= \frac{1}{n}\sum_{i=1}^n G^{(i)},\\
 \bar{S}_n &= \frac{1}{n}\sum_{i=1}^n S_T^{(i)},\\
 \end{align*}
 $$
 
 Le coefficient optimal s'écrit :
+
 $$
 b^* = \frac{\operatorname{Cov}(G,S_T)}{\operatorname{Var}(S_T)},
 $$
@@ -159,10 +167,9 @@ G^{\mathrm{ctrl},(i)} = G^{(i)} - b^* \bigl(S_T^{(i)} - m\bigr).
 $$
 
 Le prix estimé devient :
+
 $$
-
 \delta^{ctrl}_n = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
-
 $$
 
 
