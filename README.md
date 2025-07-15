@@ -38,7 +38,7 @@ Sous la mesure risque-neutre Q* (d'après le théorème de Girsanov) :
 $$dS_t = rS_t dt + σS_t dB^*_t$$
 
 
-où $B^*_t:=B_t+\frac{\mu-r}{\sigma}t$ est un mouvement brownien sous Q*.
+où $$B^*_t:=B_t+\frac{\mu-r}{\sigma}t$$ est un mouvement brownien sous Q*.
 
 La solution de cette EDS étant:
 
@@ -49,7 +49,7 @@ $$S_t = S_0\exp{((r-\frac{σ^2}{2})t + σB^*_t)}$$
 
 ### Monte Carlo Classique
 
-Puisqu'on ne peut pas calculer $e^{-rT}E^{Q^*}[G]$ analytiquement (sauf cas simples), on l'approxime par 
+Puisqu'on ne peut pas calculer $$e^{-rT}E^{Q^*}[G]$$ analytiquement (sauf cas simples), on l'approxime par 
 
 $$\hat{\delta}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})$$
 
