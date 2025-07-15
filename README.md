@@ -164,5 +164,4 @@ $$
 = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}
 $$
 
-et voilà !
-
+Licence MIT
