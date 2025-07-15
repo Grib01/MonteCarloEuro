@@ -38,7 +38,7 @@ Sous la mesure risque-neutre Q* (d'après le théorème de Girsanov) :
 $$dS_t = rS_t dt + σS_t dB^*_t$$
 
 
-où $$B^*_t:=B_t+\frac{\mu-r}{\sigma}t$$ est un mouvement brownien sous Q*.
+où $B^*_t:=B_t+\frac{\mu - r}{\sigma}t$ est un mouvement brownien sous Q*.
 
 La solution de cette EDS étant:
 
