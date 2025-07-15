@@ -145,16 +145,7 @@ On note pour chaque simulation :
 - $S_T^{(i)}$ le prix simulé
 - $G^{(i)} = (S_T^{(i)} - K)^+$ le payoff
 
-On définit :
-
-$$
-\begin{align*}
-Ĝ_n &= \frac{1}{n}\sum_{i=1}^n G^{(i)},\\
-Ŝ_n &= \frac{1}{n}\sum_{i=1}^n S_T^{(i)},\\
-\end{align*}
-$$
-
-Le coefficient optimal s'écrit :
+On définit le coefficient optimal:
 
 $$
 b^* = \frac{Cov(G,S_T)}{Var(S_T)},
@@ -169,7 +160,7 @@ $$
 Le prix estimé devient :
 
 $$
-\delta^{ctrl}_n = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
+\delta^{\mathrm{ctrl}}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
 $$
 
 
