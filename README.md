@@ -84,12 +84,13 @@ $$
 
 **Variance et intervalle de confiance** :
 
+$$
 \begin{align*}
-\mathbb{V}(\delta_n) &= e^{-2rT}\frac{\mathbb{V}(G)}{n}\\
-\text{Erreur standard} &= \sqrt{\mathbb{V}(\delta_n)}\\
+\V(\delta_n) &= e^{-2rT}\frac{V}(G)}{n}\\
+\text{Erreur standard} &= \sqrt{V}(\delta_n)}\\
 \text{IC 95\%} &= \delta_n ± 1.96 × \text{Erreur standard}
 \end{align*}
-
+$$
 
 ### Variables Antithétiques
 
