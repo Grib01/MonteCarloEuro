@@ -108,16 +108,17 @@ $$
 2. Estimer le prix :
    
 $$
-
-\delta^{A}_n = e^{-rT}\frac{2}{n}\sum_{i=1}^{n/2} G_{moyen}^i
-
+\delta^A_n = e^{-rT}\frac{2}{n}\sum_{i=1}^{n/2} G_{moyen}^i
 $$
 
 **Réduction de variance**
+
 $$
 V(G_{moyen}) = \frac{1}{2}[V(G⁺) + V(G⁻) + 2Cov(G⁺, G⁻)]
 $$
+
 Si
+
 $$Cov(G⁺, G⁻) < 0$$,
 
 alors 
