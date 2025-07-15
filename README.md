@@ -163,4 +163,6 @@ $$
 \delta^{\mathrm{ctrl}}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
 $$
 
+.
+
 
