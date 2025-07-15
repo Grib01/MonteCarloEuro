@@ -149,15 +149,15 @@ On définit :
 
 $$
 \begin{align*}
-\bar{G}_n &= \frac{1}{n}\sum_{i=1}^n G^{(i)},\\
-\bar{S}_n &= \frac{1}{n}\sum_{i=1}^n S_T^{(i)},\\
+Ĝ_n &= \frac{1}{n}\sum_{i=1}^n G^{(i)},\\
+Ŝ_n &= \frac{1}{n}\sum_{i=1}^n S_T^{(i)},\\
 \end{align*}
 $$
 
 Le coefficient optimal s'écrit :
 
 $$
-b^* = \frac{\operatorname{Cov}(G,S_T)}{\operatorname{Var}(S_T)},
+b^* = \frac{Cov(G,S_T)}{Var(S_T)},
 $$
 
 calculé empiriquement sur l'échantillon. L'estimateur par variable de contrôle est alors :
