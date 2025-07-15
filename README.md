@@ -59,7 +59,9 @@ $$e^{-rT}E^{Q^*}[G]$$
 
 analytiquement (sauf cas simples), on l'approxime par 
 
-$$\hat{\delta}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})$$
+$$
+\hat{\delta}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})
+$$
 
 
 où $S_T^{(1)},...S_T^{(n)}$ sont n simulations indépendantes sous Q*.
