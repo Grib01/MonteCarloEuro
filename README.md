@@ -56,14 +56,13 @@ $$S_t = S_0\exp{((r-\frac{σ^2}{2})t + σB^*_t)}$$
 Puisqu'on ne peut pas calculer :
 
 $$
-\delta = e^{-rT}\,\mathbb{E}^{Q^*}[G]
+\delta = e^{-rT}\mathbb{E}^{Q^*}[G]
 $$
 
 analytiquement (sauf cas simples), on l'approxime par :
 
 $$
-\hat{\delta}_n = e^{-rT}
-\frac{1}{n}\sum_{i=1}^n G\bigl(S_T^{(i)}\bigr).
+\delta_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G\bigl(S_T^{(i)}\bigr)
 $$
 
 
