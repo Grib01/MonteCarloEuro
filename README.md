@@ -157,12 +157,12 @@ $$
 G^{\mathrm{ctrl},(i)} = G^{(i)} - b^* \bigl(S_T^{(i)} - m\bigr).
 $$
 
-Le prix estimé devient :
+Le prix estimé corrigé est :
 
 $$
-\delta^{ctrl}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G^{ctrl,(i)}.
+\hat{\delta}_n^{\mathrm{ctrl}} 
+= e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}
 $$
 
-.
-
+et voilà !
 
