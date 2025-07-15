@@ -109,7 +109,7 @@ $$
    
 $$
 
-\delta^A_n = e^{-rT}\frac{2}{n}\sum_{i=1}^{n/2} G^i
+\delta^{A}_n = e^{-rT}\frac{2}{n}\sum_{i=1}^{n/2} G_{moyen}^i
 
 $$
 
