@@ -53,14 +53,19 @@ $$S_t = S_0\exp{((r-\frac{σ^2}{2})t + σB^*_t)}$$
 
 ### Monte Carlo Classique
 
-Puisqu'on ne peut pas calculer 
+Puisqu'on ne peut pas calculer :
 
-$$e^{-rT}E^{Q^*}[G]$$
+$$
+\delta = e^{-rT}\,\mathbb{E}^{Q^*}[G]
+$$
 
-analytiquement (sauf cas simples), on l'approxime par 
-\begin{displaymath}
-\hat{\delta}_n=e^{-rT}\frac{1}{n}\sum_{i=1}^n G(S_T^{(i)})
-\end{displaymath}
+analytiquement (sauf cas simples), on l'approxime par :
+
+$$
+\hat{\delta}_n = e^{-rT}
+\frac{1}{n}\sum_{i=1}^n G\bigl(S_T^{(i)}\bigr).
+$$
+
 
 
 où $S_T^{(1)},...S_T^{(n)}$ sont n simulations indépendantes sous Q*.
