@@ -160,7 +160,7 @@ $$
 Le prix estimé devient :
 
 $$
-\delta^{\mathrm{ctrl}}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G^{\mathrm{ctrl},(i)}.
+\delta^{ctrl}_n = e^{-rT}\frac{1}{n}\sum_{i=1}^n G^{ctrl,(i)}.
 $$
 
 .
