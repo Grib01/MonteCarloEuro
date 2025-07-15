@@ -160,7 +160,7 @@ $$
 Le prix estimé corrigé est :
 
 $$
-\hat{\delta}_n^{\mathrm{ctrl}} 
+\delta_n^{\mathrm{ctrl}} 
 = e^{-rT} \cdot \frac{1}{n} \sum_{i=1}^n G^{\mathrm{ctrl},(i)}
 $$
 
