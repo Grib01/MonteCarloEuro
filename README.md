@@ -106,30 +106,33 @@ $$
    - $G_{\text{moyen}}^{i}=\frac{G^+_i+G^-_i}{2}$
 
 2. Estimer le prix :
+   
 $$
-\delta^A_n = e^{-rT} \frac{2}{n}\sum_{i=1}^{n/2} G_{\text{moyen}}^i
+
+\delta^A_n = e^{-rT} \frac{2}{n}\sum_{i=1}^{n/2} G_{moyen}^i
+
 $$
 
 **Réduction de variance**
 $$
-\mathbb{V}(G_{moyen}) = \frac{1}{2}[\mathbb{V}(G⁺) + \mathbb{V}(G⁻) + 2Cov(G⁺, G⁻)]
+V(G_{moyen}) = \frac{1}{2}[V(G⁺) + V(G⁻) + 2Cov(G⁺, G⁻)]
 $$
 Si
 $$Cov(G⁺, G⁻) < 0$$,
 
 alors 
 
-$$\mathbb{V}(p̂^{G^A}_0) < \mathbb{V}(p̂^G_0)$$
+$$V(p̂^{G^A}_0) < V(p̂^G_0)$$
 
 ### Variable de Contrôle
 
 **Principe** : Utiliser $S_T$ comme variable de contrôle car 
-$$\mathbb{E}^{Q^*}[S_T] = S_0e^{rT}$$
+$$E^{Q^*}[S_T] = S_0e^{rT}$$
 est connu.
 
 utiliser directement $S_T$ comme variable de contrôle, car on connaît
 $$
-\mathbb{E}[S_T] = S_0 e^{rT} = m.
+E[S_T] = S_0 e^{rT} = m.
 $$
 
 On note pour chaque simulation :
