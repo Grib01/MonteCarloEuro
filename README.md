@@ -87,7 +87,7 @@ $$
 $$
 \begin{align*}
 V(\delta_n) &= e^{-2rT}\frac{V}(G)}{n}\\
-\text{Erreur standard} &= \sqrt{V}(\delta_n)}\\
+\text{Erreur standard} &= \sqrt{V(\delta_n)}\\
 \text{IC 95\%} &= \delta_n ± 1.96 × \text{Erreur standard}
 \end{align*}
 $$
